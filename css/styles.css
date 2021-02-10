@@ -36,7 +36,7 @@ header nav a:hover {
 /*banner*/
 #banner {
     padding-top: 300px;
-    padding-bottom: 350px;
+    padding-bottom: 410px;
     width: 100%;
 
 }
@@ -107,7 +107,7 @@ header nav a:hover {
 #competences {
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: #01030c;
+    background-color: #262c3f;
 }
 #competences > h1 {
     font-size: 2.5rem;
@@ -185,7 +185,7 @@ header nav a:hover {
     padding-top: 50px;
     background-color: #03071e;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 #creations > h1 {
     font-size: 2.5rem;
@@ -200,16 +200,83 @@ header nav a:hover {
 .allrea {
     display: flex;
     width: 80%;
+    max-width: 80%;
     margin: 0 auto;
 }
 .allrea > div {
     display: flex;
-    flex-direction: column;
+    width: 33%;
+    max-width: 33%;
 }
-.allrea a, img {
+.allrea > div > img {
     width: 100%;
-    margin: 5px;
 }
 .allrea h2 {
     text-align: center;
+}
+.allrea > div > div {
+    opacity: 0%;
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    background-color: #00000099;
+    transition: opacity 300ms;
+}
+.allrea > div > div > p {
+    padding: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+.allrea > div > div > a {
+    padding: 15px;
+    background-color: #9d0208;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    bottom: 5px;
+    text-decoration: none;
+}
+.allrea > div > div:hover {
+    opacity: 100%;
+}
+.allrea > div > div > a:hover {
+    text-decoration: underline;
+}
+/*Contact*/
+#contact {
+    background-color: #060811;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#contact h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+#contact > hr {
+    border: #9d0208 2px solid;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+table {
+    width: 40%;
+    margin: 0 auto;
+}
+#contact table tr th:first-child{
+    width: 10%;
+}
+th img {
+    width: 100%;
+}
+#pdf {
+    background-color: #9d0208;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
 }
