@@ -1,0 +1,139 @@
+@media screen and (max-width: 425px) {
+    .header-menu {
+        flex-wrap: wrap;
+    }
+    .header-menu a {
+        font-size: 1.75rem;
+        margin: 5px
+    }
+    #hidden {
+        display: none;
+    }
+    p {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .banner-desc > h1 {
+        font-size: 1.75rem;
+    }
+    .banner-desc > a {
+        font-size: 1rem;
+    }
+    .banner {
+        height: 200px;
+    }
+    .banner-video video{
+        width: 100%;
+    }
+    h3 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    h2 {
+        width: 80%;
+    }
+    #services > div {
+        width: 100%;
+    }
+    #services p {
+        width: 70%;
+    }
+    #contact > div {
+        width: 90%;
+    }
+    #contact > div > img {
+        width: 80%;
+    }
+    .footer-socials > p {
+        font-size: 1rem;
+    }
+    #player {
+        display: none;
+    }
+    #twitch > p {
+        display: block;
+    }
+    #twitch a {
+        color: white;
+    }
+    #twitch p {
+        width: 80%;
+    }
+    #images {
+        flex-direction: column;
+        width: 90%;
+    }
+    #images div a img {
+        width: 100%;
+    } 
+    #img > a img {
+        width: 100%;
+    }
+    #nouveaute {
+        display: none;
+    }
+    #presentation {
+        margin-top: 10px;
+    }
+    #clip h4 {
+        font-size: 1.5rem;
+    }
+    #clip h5 {
+        font-size: 1.5rem;
+    }
+    #pgeasy {
+        margin-top: 10px;
+    }
+    #pgeasy p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #pgeasy h3 {
+        font-size: 2rem;
+    }
+    #pgmedium {
+        margin-top: 10px;
+    }
+    #pgmedium p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #pgmedium h3 {
+        font-size: 2rem;
+    }
+    #pghard {
+        margin-top: 10px;
+    }
+    #pghard p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #pghard h3 {
+        font-size: 2rem;
+    }
+    #box h1 {
+        font-size: 1rem;
+    }
+    #box a {
+        margin-top: 40px;
+        font-size: 0.75rem;
+    }
+    #black {
+        width: 100%;
+        background-color: black;
+    }
+    #choix2 {
+        padding-bottom: 10px;
+    }
+    #chart p {
+        max-width: 85%;
+        font-size: 1rem;
+    }
+    .footer-socials p {
+        text-align: start;
+        font-size: 1rem;
+        width: 60%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
