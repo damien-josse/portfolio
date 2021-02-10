@@ -7,8 +7,9 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-
+        
         <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Portfolio - JOSSE Damien</title>
     </head>
 
@@ -18,13 +19,15 @@
             <nav>
                 <a href="#details">DÉTAILS</a>
                 <a href="#competences">COMPÉTENCES</a>
-                <a href="#creations">CRÉATIONS</a>
+                <a href="#creations">RÉALISATIONS</a>
                 <a href="#contact">CONTACT</a>
             </nav>
         </header>
         <section id="banner">
             <h1></h1>
-            <div>
+            <div data-aos="fade-right" 
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <hr>
                 <div>
                     <h1>FRONT-END</h1>
@@ -34,27 +37,30 @@
         </section>
 
         <section id="details">
-            <h1>Qui suis-je ?</h1>
-            <hr>
+            <h1 data-aos="fade-right">Qui suis-je ?</h1>
+            <hr data-aos="fade-right">
             <div class="container">
                 <hr>
-                <div>
+                <div data-aos="fade-right">
                     <div id="rsociaux">
                         <a href="https://www.facebook.com/dam.jss/"><img src="./img/FB.png"></a>
-                        <a href="#"><img src="./img/Whatsapp.png"></a>
-                        <a href="#"><img src="./img/Linkdin.png"></a>
-                        <a href="#"><img src="./img/Gmail.png"></a>
+                        <a href="https://www.linkedin.com/in/damien-josse-29b8a0195/"><img src="./img/Linkdin.png"></a>
+                        <a href="mailto:damienjss02100@gmail.com"><img src="./img/Gmail.png"></a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        Je m'appelle Damien Josse, je suis actuellement en DUT MMI.
+                        J'aimerais être développeur front-end car j'apprécie vraiment le côté design d'un site.
+                        Vous retrouverez sur ce portfolio mes premières créations, mes compétences et les liens pour me contacter.
+                    </p>
                 </div>                
             </div>
         </section>
 
         <section id="competences">
-            <h1>Mes compétences</h1>
-            <hr>
+            <h1 data-aos="fade-right">Mes compétences</h1>
+            <hr data-aos="fade-right">
             <div>
-                <div id="programmations">
+                <div id="programmations" data-aos="fade-right">
                     <h2>Programmations</h2>
                     <hr>
                     <div>
@@ -64,7 +70,7 @@
                         <img src="./img/php.png">
                     </div>
                 </div>
-                <div id="adobe">
+                <div id="adobe" data-aos="fade-right">
                     <h2>Adobe</h2>
                     <hr>
                     <div>
@@ -78,24 +84,65 @@
         </section>
 
         <section id="creations">
-                <h1>Mes réalisations</h1>
-                <hr>
-                <div class="allrea">
+            <h1 data-aos="fade-right">Mes réalisations</h1>
+            <hr data-aos="fade-right">
+            <div class="allrea" data-aos="fade-right">
+                <div>
+                    <img src="./img/MMICREATIONS.png">
                     <div>
-                        <a href="./mmi-creation_2020/mmi-creation 2020/mmi-creation 2020/Code/index.html"><img src="./img/MMICREATIONS.png"></a>
-                    </div>
-                    <div>
-                        <a href="./xdam99/index.html"><img src="./img/xdam99.png"></a>
-                    </div>
-                    <div>
-                        <a href="./Eclectic-Summer-Festival-by-KOSMOS-master/index.html"><img src="./img/ecletic.png"></a>
+                        <p>
+                            Le premier site que l'on devait faire dans mon DUT MMI en première année. Une simulation de site
+                            vitrine.
+                        </p>
+                        <a href="./mmi-creation_2020/mmi-creation 2020/mmi-creation 2020/Code/index.html">Le voir</a>
                     </div>
                 </div>
+                <div>
+                    <img src="./img/xdam99.png">
+                    <div>
+                        <p>Un site vritrine que j'ai codé fin 2019, il avait pour but de réunir mes loisirs de streaming aux même endroit.</p>
+                        <a href="./xdam99/index.html">Le voir</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/ecletic.png">
+                    <div>
+                        <p>
+                            Le site de mon projet tutoré de première année. Nous étions un groupe de six étudiants pour faire un festival (fictif) de quatres jours
+                            de façon à rassembler tous les genres de musiques. Un jour, un genre. Tout était à faire, la communication,
+                            la publicité (pour les compétences audiovisuelles), ainsi qu'un site fonctionnel en 15 jours. Nous avions eu
+                            18/20.
+                        </p>
+                        <a href="./Eclectic-Summer-Festival-by-KOSMOS-master/index.html">Le voir</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
-            
+            <h1 data-aos="fade-right">Me contacter</h1>
+            <hr data-aos="fade-right">
+            <table>
+                <tr data-aos="fade-right">
+                    <th><a href="https://www.facebook.com/dam.jss/"><img src="./img/FB.png"></a></th>
+                    <td>Damien JOSSE</td>
+                    <th style="font-size: 1.5rem;">Curiculum Vitae</th>
+                </tr>
+                <tr data-aos="fade-right">
+                    <th><a href="https://www.linkedin.com/in/damien-josse-29b8a0195/"><img src="./img/Linkdin.png"></a></th>
+                    <td>Damien JOSSE</td>
+                    <th><a id="pdf" href="./JOSSE Damien cv.pdf">Voir en PDF</a></th>
+                </tr>
+                <tr data-aos="fade-right">
+                    <th><a href="mailto:damienjosse02@gmail.com"><img src="./img/Gmail.png"></a></th>
+                    <td>damienjosse02@gmail.com</td>
+                </tr>
+            </table>
         </section>
-
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
