@@ -79,7 +79,7 @@ header nav a:hover {
     background-color: #03071eee;
     margin-top: 50px;
     display: flex;
-    width: 90%;
+    width: 50%;
 }
 #details > div > hr {
     border: #9d0208 3px solid;
