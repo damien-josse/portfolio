@@ -74,12 +74,18 @@
         display: none;
     }
     #contact {
-        padding-bottom: 300px;
+        padding-bottom: 100px;
     }
     th {
         padding: 20px;
     }
     .hidden {
         display: none;
+    }
+    #contact > div {
+        background-color: #00000000;
+    }
+    .allrea > div > div {
+        opacity: 100%;
     }
 }
