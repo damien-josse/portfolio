@@ -261,21 +261,59 @@ header nav a:hover {
     margin: 0 auto;
     margin-bottom: 50px;
 }
-table {
-    width: 40%;
-    margin: 0 auto;
-}
-#contact table tr th:first-child{
-    width: 10%;
-}
-th img {
-    width: 100%;
+#contact img {
+    width: 20%;
 }
 #pdf {
     background-color: #9d0208;
     color: white;
-    width: 50%;
-    margin: 0 auto;
+    width: 90%;
+    text-align: center;
     padding: 10px;
     border-radius: 10px;
+    text-decoration: none;
+}
+#pdf:hover {
+    text-decoration: underline;
+}
+#contact > div {
+    margin-top: 100px;
+    background-color: #262c3f;
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#contact h2 {
+    margin-top: 30px;
+}
+#first {
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#contact > div:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+form {
+    width: 70%;
+    margin:  0 auto;
+}
+textarea {
+    max-width: 100%;
+}
+#erase {
+    background-color: #9d0208;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#send {
+    background-color: #9d0208;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
 }
