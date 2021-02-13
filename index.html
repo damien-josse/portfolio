@@ -122,22 +122,26 @@
         <section id="contact">
             <h1 data-aos="fade-right">Me contacter</h1>
             <hr data-aos="fade-right">
-            <table>
-                <tr data-aos="fade-right">
-                    <th class="hidden"><a href="https://www.facebook.com/dam.jss/"><img src="./img/FB.png"></a></th>
-                    <td class="hidden">Damien JOSSE</td>
-                    <th style="font-size: 1.5rem;">Curiculum Vitae</th>
-                </tr>
-                <tr data-aos="fade-right">
-                    <th class="hidden"><a href="https://www.linkedin.com/in/damien-josse-29b8a0195/"><img src="./img/Linkdin.png"></a></th>
-                    <td class="hidden">Damien JOSSE</td>
-                    <th><a id="pdf" href="./JOSSE Damien cv.pdf">Voir en PDF</a></th>
-                </tr>
-                <tr data-aos="fade-right">
-                    <th class="hidden"><a href="mailto:damienjosse02@gmail.com"><img src="./img/Gmail.png"></a></th>
-                    <td class="hidden">damienjosse02@gmail.com</td>
-                </tr>
-            </table>
+            <div id="first">
+                <div class="hidden">
+                    <a href="https://www.facebook.com/dam.jss/"><img src="./img/FB.png"></a>                    
+                    <a href="https://www.linkedin.com/in/damien-josse-29b8a0195/"><img src="./img/Linkdin.png"></a>                        
+                </div>
+                <a id="pdf" href="./JOSSE Damien cv.pdf">Voir mon C.V. en PDF</a>                    
+            </div>
+            <div>
+                <form class="hidden" method="post" enctype="text/plain" action="mailto:damienjss02100@gmail.com">
+                    <h2>Nom:</h2> 
+                    <input value="" id="nom" name="Nom " size="30"><br>
+                    <h2>prénom:</h2> 
+                    <input value="" id="prenom" name="Prenom " size="30"><br>
+                    <h2>Message:</h2> 
+                    <textarea name="Message " rows="5" cols="30"></textarea><br>
+                    <input id="erase" value="Effacer" type="reset">
+                    <input id="send" value="Envoyer" type="submit"><br>
+                </form>   
+            </div>
+              
         </section>
         
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
