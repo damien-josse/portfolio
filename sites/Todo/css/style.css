@@ -1,0 +1,109 @@
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+header {
+    background-color: #0d002c;
+    color: white;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#user-send {
+    display: flex;
+    margin-top: 50px;
+    width: 20%;
+}
+#detail {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: #0d002c 2px solid;
+    border-right: none;
+    font-size: 1rem;
+    padding: 10px;
+    width: 70%;
+}
+#send {
+    background-color: rgb(241, 241, 241);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border:#0d002c 2px solid;
+    border-left: none;
+    color: #0d002c;
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: center;
+    transition: 0.4s color;
+    width: 30%;
+    -webkit-transition: background-color 0.4s ease-out;
+}
+#send:hover {
+    background-color: #0d002c;
+    color: white;
+}
+#content {
+    margin-top: 50px;
+}
+.task {
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    border: white 1px solid;
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    opacity: 0%;
+    transition: opacity 1s ease-out;
+    width: 100%;
+    -moz-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
+    -webkit-transition: opacity 1s ease-out;
+}
+.txt {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    max-width: 50%;
+    width: 50%;
+}
+.txt p:before {
+    content: '- ';
+}
+.txt p {
+    width: 50%;
+    margin-left: 10px;
+    word-break: break-all;
+}
+h5{
+    width: 50%;
+}
+.option {
+    display: flex;
+    background-color: #eeeeee;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 50%;
+}
+.option input, .option button {
+    border-radius: 4px;
+    background-color: white;
+    border: #0d002c 1px solid;
+    color: #0d002c;
+    font-size: 0.8rem;
+    padding: 10px;
+    transition: 0.4s color;
+    -webkit-transition: background-color 0.4s ease-out;
+}
+.option > button:first-child:hover {
+    background-color: #5f0000;
+    color: white;
+}
+button:hover {
+    background-color: #0d002c;
+    color: white;
+}
