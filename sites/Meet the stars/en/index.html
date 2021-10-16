@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+        <link rel="stylesheet" href="../src/CSS/normalize.css">
+        <link rel="stylesheet" href="../src/CSS/style.css">
+        <link rel="stylesheet" href="../src/CSS/screen.css" media="screen and (max-width: 1024px)">
+        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript">
+        (function() {
+        emailjs.init("user_vGPe1B5wlr9M0LDl554Zl");
+        })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    // generate a five digit number for the contact_number variable
+                    this.contact_number.value = Math.random() * 100000 | 0;
+                    // these IDs from the previous steps
+                    emailjs.sendForm('service_6fljeqh', 'template_z3x0m6c', this)
+                        .then(function() {
+                            console.log('SUCCESS!');
+                            document.getElementById('reponse').innerHTML = "Votre message a bien été envoyé.";
+                        }, function(error) {
+                            console.log('FAILED...', error);
+                            document.getElementById('reponse').innerHTML = "Echec de l'envoi. Veuillez réessayer.";
+                        });
+                });
+            }
+        </script>
+
+        <title>MEET THE STARS</title>
+    </head>
+    <body>
+        <header>
+            <div id="menu">
+                <div id="menu-titre">
+                    <a href="index.html"><video id="logost" src="../src/videos/anim_boucle.webm" muted loop autoplay playsinline></video></a>
+                    <a href="index.html"><img id="txt-logo" src="../src/img/txt-logo.png"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="deroulant"><a href="./expo.html">Exhibitors</a>
+                            <ul class="sous">
+                                <li><a href="expo.html#date-4">December 4th, 2021</a></li>
+                                <li><a href="expo.html#date-5">December 5th, 2021</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="presse.html">Press</a></li>
+                        <li><a href="infos.html">Information</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <a id="buy" href="billetterie.html">box office</a>
+                    </ul>    
+                </nav>
+            </div>
+            <div id="choix-langues">
+                <a href="" onclick="changeLanguageFR();" id="fr">FR</a><p> | </p><a href="" onclick="changeLanguageEN();" id="en">EN</a>
+            </div>
+        </header>
+
+        <section id="banner">
+            <img id="swipe" src="../src/img/swipe.gif" onclick="topFunction();">
+            <div id="banner-over">
+                <video id="banner-video" src="../src/videos/video_banner.mp4" muted loop autoplay playsinline></video>
+                <div id="overlay"></div>
+            </div>
+            <div id="banner-txt">
+                <h1>Astronomy fair</h1>
+                <h2>December 4th and 5th, 2021</h2>       
+            </div>
+        </section>
+
+        <button onclick="topFunction();" id="backup" title="Go to top">
+            <img src="https://img.icons8.com/nolan/64/collapse-arrow.png" alt="arrow" />
+        </button>
+        <section id="desc">
+            <div id="desc-txt" class="container">
+                <div>
+                    <img id="txt-logo-b" src="../src/img/txt-logo.png">
+                    <h3>à la Coupole, Wizernes</h3>
+                    <p>
+                        Discover Astronomy with a multitude of activities such as educational workshops, conferences and much more ! Enjoy the projections offered by the 3D Planetarium: Polaris, Ready for Takeoff and Black Holes. 
+                    </p>
+                    <p>
+                        All conferences will be subtitled in english and in french.
+                    </p>
+                    <a href="../en/billetterie.html">Book now</a>
+                </div>
+                <div>
+                    <h3>04-12-21</h3>
+                    <p>11h00 AM | Autograph session with Astronogeek (FR)</p>
+                    <p>02h00 PM | Life in space: conference by Thomas Pesquet (FR, EN subtitles)</p>
+                    <p>03h30 PM | Meeting with Thomas Pesquet (FR)</p>
+                    <p>04h30 PM | Journey in the universe : discovering Laniakea : conference by Hélène Courtois (FR, EN subtitles)</p>
+
+                    <h3>05-12-21</h3>
+                    <p>11h00 AM | Autograph session with Le Petit Astronome (FR)</p>
+                    <p>02h00 PM | Lessons from an astronaut, conference by Megan McArthur (EN)</p>
+                    <p>04h30 PM | Autograph session with Jamy Gourmaud (FR)</p>
+                </div>
+            </div>
+        </section>
+        <section id="programme">
+            <div>
+                <div>
+                <h3>Enjoy the projections at the planetarium:</h3>
+                <table>
+                    <tr>
+                        <td class="nom_proj">Polaris</td>
+                        <td class="temps">20min</td>
+                        <td class="heure">12h00pm</td>
+                        <td class="heure">01h00pm</td>
+                        <td class="heure">03h00pm</td>
+                        <td class="heure">05h00pm</td>
+                    </tr>
+                    <tr>
+                        <td class="nom_proj">Ready for Takeoff</td>
+                        <td class="temps">25min</td>
+                        <td class="heure">9h45am</td>
+                        <td class="heure">11h30am</td>
+                        <td class="heure">01h30pm</td>
+                        <td class="heure">03h30pm</td>
+                    </tr>
+                    <tr>
+                        <td class="nom_proj">Black Holes</td>
+                        <td class="temps">25min</td>
+                        <td class="heure">10h30am</td>
+                        <td class="heure">12h30pm</td>
+                        <td class="heure">02h30pm</td>
+                        <td class="heure">04h30pm</td>
+                    </tr>
+                </table>
+            </div>
+            <h3 class="observ">
+                Also take advantage of the night observation 
+                from 09 pm to 11 pm to watch clusters, galaxies, stars, and nebula 
+                with binoculars and telescopes at your disposal. 
+            </h3>
+        </div>
+    </section>
+
+    <section id="videos">
+        <div>
+            <div>
+                <div>
+                    <video width="560" height="400" src="../src/videos/motion_design.mp4" muted loop autoplay>
+                </div>
+                <div>
+                    <h2>Video promotionnelle</h2>
+                    <p>Coucou c'est moi</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Video</h2>
+                    <p></p>
+                </div>
+                <div>
+                    <iframe width="560" height="400" src="https://www.youtube.com/embed/hw5awanuK2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>    
+        <section id="contact">
+            <div>
+                <h3>Contact us</h3>
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <label class="color">Name</label>
+                    <input type="text" value="" name="user_name">
+                    <label class="color">Email</label>
+                    <input type="email" value="" name="user_email">
+                    <label class="color">Message</label>
+                    <textarea name="message" value=""></textarea>
+                    <input id="send" type="submit" value="Send">
+                    <h4 id="reponse"></h4>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <a href="index.html"><img src="../src/img/logost.png"></a>
+            <p>Meet the Stars™</p>
+            <div>
+                <p>Copyright ©2021 All rights reserved | This website has been designed by the agengy <a
+                    href="mailto:Mts.supp62@gmail.com"><img class="logo"
+                        src="../src/img/Logo_IDCom-V3.png"></a></p>
+            </div>
+            <div>
+                <p>Stay in touch</p>
+                <div>
+                    <a href="https://www.facebook.com/salonMeetTheStars/" target="_blank"><img class="icon"
+                            src="../src/img/facebook-white.png" alt="facebook"></a>
+                    <a href="https://twitter.com/Meet_The_Stars" target="_blank"><img class="icon"
+                            src="../src/img/twitter-white.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com/salonmeetthestars/" target="_blank"><img class="icon"
+                            src="../src/img/instagram-white.png" alt="instagram"></a>
+                    <a href="mailto:Mts.supp62@gmail.com"><img class="icon"
+                            src="../src/img/gmail-white.png" alt="gmail"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="../src/JS/script.js">
+        </script>
+        <script src="../src/JS/scroll.js"></script>
+    </body>
+</html>
