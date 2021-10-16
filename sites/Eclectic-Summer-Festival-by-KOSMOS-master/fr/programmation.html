@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site officiel de l'Eclectic Festival">
+    <meta name="keywords" content="eclectic,festival,musique,fête,dj,chanson,electro,jazz,variété française">
+    <meta name="author" content="KOSMOS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./src/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="../src/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../src/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../src/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../src/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../src/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../src/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../src/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../src/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../src/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../src/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../src/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../src/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../src/scripts/manifest.json">
+
+    <link rel="stylesheet" type="text/css" href="../src/styles/style.css">
+
+    <title>Eclectic Summer Festival™ - Site officiel</title>
+</head>
+
+<body>
+    <!--Header du site-->
+    <header class="overlay banner-page">
+        <div id="myheader">
+            <div class="toggle">
+                <div class="menu"><img src="https://img.icons8.com/nolan/64/menu.png"></div>
+            </div>
+            <!--Menu du site apparant sur toutes les pages-->
+            <nav class="menu">
+                <ul class="navbar-ul">
+                    <li class="nav-link"><a class="link" href="../index.html">Accueil</a></li>
+                    <li class="nav-link"><a class="link" href="./programmation.html">Programmation</a>
+                        <ul>
+                            <li class="nav-link res"><a class="link" href="./programmation.html#exclusive">En
+                                    exclusivité</a>
+                            <li class="nav-link res"><a class="link" href="./programmation.html#planning">Planning</a>
+                        </ul>
+                    </li>
+                    <li class="nav-link hide"><a class="link no-decoration" href="../index.html"><img class="nav-logo"
+                                src="../src/images/logos/ECLECTIC_LOGO_blanc.png" alt="logo"></a></li>
+                    <li class="nav-link"><a class="link" href="./infos_pratiques.html">Infos Pratiques</a></li>
+                    <li class="nav-link"><a class="link" href="./presse.html">Presse</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="./billetterie.html"><span>Billetterie</span></a>
+            <!--Menu langues Fr/En-->
+            <div class="language" id="language">
+                <a class="flag" href="./programmation.html">FR</a>
+                <p>|</p>
+                <a class="flag" href="../en/line-up.html">EN</a>
+            </div>
+        </div>
+        <div class="bannerimg">
+            <img src="../src/images/banniere-sous-page.jpg" alt="imagebanniere">
+        </div>
+        <div class="textbanner souspage">
+            <h1> Programmation </h1>
+        </div>
+    </header>
+
+    <button onclick="topFunction()" id="backup" title="Go to top"><img
+            src="https://img.icons8.com/nolan/64/collapse-arrow.png" alt="arrow" /></button>
+
+    <div class="exclu" id="scroll">
+        <h2 class="gradiant-purple-blue" id="exclusive"> En exclusivité</h2>
+        <div>
+            <div>
+                <div class="imgexclu">
+                    <img src="../src/images/jeudi/gogo-penguin_optimized.jpg" alt="backstage">
+                    <h3 class="gradiant-purple-blue"> Gogo Penguin </h3>
+                </div>
+                <div class="imgexclu">
+                    <img src="../src/images/vendredi/martin-garrix_optimized.jpg" alt="backstage">
+                    <h3 class="pad gradiant-purple-blue"> Martin Garrix </h3>
+                </div>
+            </div>
+            <div>
+                <div class="imgexclu">
+                    <img src="../src/images/samedi/vald_optimized.jpg" alt="backstage">
+                    <h3 class="gradiant-purple-blue"> Vald </h3>
+                </div>
+                <div class="imgexclu">
+                    <img src="../src/images/dimanche/acdc_optimized.jpg" alt="backstage">
+                    <h3 class="gradiant-purple-blue"> AC/DC </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 id="planning" class="gradiant-purple-yellow"> Planning </h2>
+        <div class="menuancre">
+            <a href="#jeudi"> Jeudi </a>
+            <a href="#vendredi"> Vendredi </a>
+            <a href="#samedi"> Samedi </a>
+            <a href="#dimanche"> Dimanche </a>
+        </div>
+    </div>
+
+    <div id="jeudi">
+        <div class="overlay-jaune banner-interpage">
+            <h4> Jeudi 12 août </h4>
+            <div class="bannerimg img-interpage">
+                <img src="../src/images/genre-jazz-banniere_optimized.jpg" alt="imagebanniere">
+            </div>
+            <div class="textbanner interpage">
+                <h1> Soirée Prestige : Jazz </h1>
+            </div>
+        </div>
+
+        <div class="planningart">
+            <div class="name noborder ">
+                <div class="noborder">
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Madine</h5>
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Fontenelles</h5>
+                </div>
+                <div class="noborder">
+                    <h5 class="center uppercase resp">Métropolis</h5>
+                </div>
+            </div>
+
+            <div class="photos">
+                <div>
+                    <h5>20h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/jeudi/hyptnoticbrassensemble_optimized.jpg">
+                    <div class="hover">
+                        <h4>Hypnotic Brass Ensemble</h4>
+                        <h6>20h - 20h45</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="soiree"> Soirée Jazz exclusivement sur la scène Madine ce jeudi<p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="soiree"> Soirée Jazz exclusivement sur la scène Madine ce jeudi<p>
+                    </div>
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>21h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/jeudi/kennybarrontrio_optimized.jpg">
+                    <div class="hover">
+                        <h4>Kenny Barron Trio</h4>
+                        <h6>21h - 21h45</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="soiree"> Soirée Jazz exclusivement sur la scène Madine ce jeudi<p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="soiree"> Soirée Jazz exclusivement sur la scène Madine ce jeudi<p>
+                    </div>
+                </div>
+            </div>
+            <div class="photos noborder">
+                <div>
+                    <h5>22h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/jeudi/gogo-penguin_optimized.jpg">
+                    <div class="hover">
+                        <h4>Gogo Penguin</h4>
+                        <h6>22h - 23h30</h6>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="soiree"> Soirée Jazz exclusivement sur la scène Madine ce jeudi<p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="soiree"> Soirée Jazz exclusivement sur la scène Madine ce jeudi<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class=" marg btnspb " href="#planning"> Revenir au Planning </a>
+    
+    <div id="vendredi">
+        <div class="overlay-jaune banner-interpage">
+            <h4> Vendredi 13 août </h4>
+            <div class="bannerimg img-interpage">
+                <img src="../src/images/genre-electro.jpg" alt="imagebanniere">
+            </div>
+            <div class="textbanner interpage">
+                <h1>Electro </h1>
+            </div>
+        </div>
+
+        <div class="planningart">
+            <div class="name noborder ">
+                <div class="noborder">
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Madine</h5>
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Fontenelles</h5>
+                </div>
+                <div class="noborder">
+                    <h5 class="center uppercase resp">Métropolis</h5>
+                </div>
+            </div>
+
+            <div class="photos">
+                <div>
+                    <h5>20h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/lindsey-stirling_optimized.jpg">
+                    <div class="hover">
+                        <h4>Lindsey Stirling</h4>
+                        <h6>20h - 20h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/ramonayacef_optimized.jpg">
+                    <div class="hover">
+                        <h4>Ramona Yacef</h4>
+                        <h6>20h - 20h45</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>21h </h5>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/steveaoki_optimized.jpg">
+                    <div class="hover">
+                        <h4>Steve Aoki</h4>
+                        <h6>21h - 21h50</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>22h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/charlixcx_optimized.jpg">
+                    <div class="hover">
+                        <h4>Charli XCX</h4>
+                        <h6>22h - 22h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/tchami_optimized.jpg">
+                    <div class="hover">
+                        <h4>Tchami</h4>
+                        <h6>22h - 23h</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photos">
+                <div>
+                    <h5>23h </h5>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/markwithak_optimized.jpg">
+                    <div class="hover">
+                        <h4>Mark with a K</h4>
+                        <h6>23h - 23h50</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+            <div class="photos">
+                <div>
+                    <h5>00h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/martinsolveig_optimized.jpg">
+                    <div class="hover">
+                        <h4>Martin Solveig</h4>
+                        <h6>23h55 - 00h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/daftpunk_optimized.jpg">
+                    <div class="hover">
+                        <h4>Daft Punk</h4>
+                        <h6>00h - 00h55</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos noborder">
+                <div>
+                    <h5>1h30 </h5>
+                </div>
+                <div>
+                    <img src="../src/images/vendredi/martin-garrix_optimized.jpg">
+                    <div class="hover">
+                        <h4>Martin Garrix</h4>
+                        <h6>1h30 - 2h15</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+        </div>
+        <a class=" marg btnspb " href="#planning"> Revenir au Planning </a>
+    </div>
+    <div id="samedi">
+        <div class="overlay-jaune banner-interpage">
+            <h4> Samedi 14 août </h4>
+            <div class="bannerimg img-interpage">
+                <img src="../src/images/genre-rap.jpg" alt="imagebanniere">
+            </div>
+            <div class="textbanner interpage">
+                <h1> Rap </h1>
+            </div>
+        </div>
+
+        <div class="planningart">
+            <div class="name noborder ">
+                <div class="noborder">
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Madine</h5>
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Fontenelles</h5>
+                </div>
+                <div class="noborder">
+                    <h5 class="center uppercase resp">Métropolis</h5>
+                </div>
+            </div>
+
+            <div class="photos">
+                <div>
+                    <h5>20h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/samedi/so-sama_optimized.png">
+                    <div class="hover">
+                        <h4>So Sama</h4>
+                        <h6>20h - 20h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/samedi/logic_optimized.jpg">
+                    <div class="hover">
+                        <h4>Logic</h4>
+                        <h6>20h - 20h45</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>21h </h5>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/samedi/alpha_wann_optimized.jpg">
+                    <div class="hover">
+                        <h4>Alpha Wann</h4>
+                        <h6>21h - 21h50</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>22h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/samedi/lil_uzi_vert_optimized.jpg">
+                    <div class="hover">
+                        <h4>Lil Uzi Vert</h4>
+                        <h6>22h15 - 22h55</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/samedi/ikazboi_optimized.jpg">
+                    <div class="hover">
+                        <h4>Ikaz boi</h4>
+                        <h6>22h - 22h45</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos ">
+                <div>
+                    <h5>23h </h5>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/samedi/plk_optimized.jpeg">
+                    <div class="hover">
+                        <h4>PLK</h4>
+                        <h6>23h - 23h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="photos ">
+                <div>
+                    <h5>00h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/samedi/fetty-wap_optimized.jpg">
+                    <div class="hover">
+                        <h4>Fetty Wap</h4>
+                        <h6>00h - 00h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/samedi/tylerthecreator_optimized.jpg">
+                    <div class="hover">
+                        <h4>Tyler the Creator</h4>
+                        <h6>00h - 1h10</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos noborder">
+                <div>
+                    <h5>1h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/samedi/vald_optimized.jpg">
+                    <div class="hover">
+                        <h4>Vald</h4>
+                        <h6>1h - 2h25</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <a class=" marg btnspb " href="#planning"> Revenir au Planning </a>
+
+    </div>
+    <div id="dimanche">
+        <div class="overlay-jaune banner-interpage">
+            <h4> Dimanche 15 août </h4>
+            <div class="bannerimg img-interpage">
+                <img src="../src/images/genre-rock.jpg" alt="imagebanniere">
+            </div>
+            <div class="textbanner interpage">
+                <h1>Rock </h1>
+            </div>
+        </div>
+
+        <div class="planningart">
+            <div class="name noborder ">
+                <div class="noborder">
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Madine</h5>
+                </div>
+                <div>
+                    <h5 class="center uppercase resp">Fontenelles</h5>
+                </div>
+                <div class="noborder">
+                    <h5 class="center uppercase resp">Métropolis</h5>
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>16h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/toybloid_optimized.jpg">
+                    <div class="hover">
+                        <h4 class="uppercase">Toybloïd</h4>
+                        <h6>16h - 16h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/stupeflip_optimized.png">
+                    <div class="hover">
+                        <h4>Stupeflip</h4>
+                        <h6>16h - 16h55</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>17h </h5>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/la-femme_optimized.jpg">
+                    <div class="hover">
+                        <h4>La Femme</h4>
+                        <h6>17h - 17h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>18h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/blue-pills_optimized.jpg">
+                    <div class="hover">
+                        <h4>Blues Pills</h4>
+                        <h6>18h - 18h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/fatal-picard_optimized.jpg">
+                    <div class="hover">
+                        <h4>Fatals Picards</h4>
+                        <h6>17h50 - 18h35</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>19h </h5>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/manu-chao_optimized.jpg">
+                    <div class="hover">
+                        <h4>Manu Chao</h4>
+                        <h6>19h - 19h45</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="photos">
+                <div>
+                    <h5>20h </h5>
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/sum-41_optimized.jpg">
+                    <div class="hover">
+                        <h4>Sum 41</h4>
+                        <h6>19h50 - 20h35</h6>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <img src="../src/images/dimanche/louise-attaque_optimized.jpg">
+                    <div class="hover">
+                        <h4>Louise Attaque</h4>
+                        <h6>20h - 21h</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="photos noborder">
+                <div>
+                    <h5>21h </h5>
+                </div>
+                <div>
+
+                    <img src="../src/images/dimanche/acdc_optimized.jpg">
+                    <div class="hover">
+                        <h4>AC/DC</h4>
+                        <h6>21h00 - 22h30</h6>
+                    </div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class=" marg btnspb " href="#planning"> Revenir au Planning </a>
+    </div>
+
+    <footer class="footer white uppercase center">
+        <img class="logo" src="../src/images/logos/ECLECTIC_LOGO_blanc.png">
+        <p>Eclectic Summer Festival™</p>
+        <p>Copyright ©2020 Tous droits réservés | Ce site a été conçu par l'agence <a
+                href="mailto:eclecticsummerfestival@gmail.com"><img class="logo"
+                    src="../src/images/logos/logo_kosmos_png.png"></a></p>
+        <div class="footer-socials uppercase center">
+            <p>Restez connecté avec nous</p>
+            <a href="https://www.facebook.com/Eclectic-Festival-111493043915158" target="_blank"><img class="icon"
+                    src="../src/images/reseaux-sociaux/facebook-white.png"></a>
+            <a href="https://m.me/111493043915158" target="_blank"><img class="icon"
+                    src="../src/images/reseaux-sociaux/messenger-white.png"></a>
+            <a href="https://twitter.com/eclectic_nancy" target="_blank"><img class="icon"
+                    src="../src/images/reseaux-sociaux/twitter-white.png"></a>
+            <a href="https://www.instagram.com/eclecticfestival" target="_blank"><img class="icon"
+                    src="../src/images/reseaux-sociaux/instagram-white.png"></a>
+            <a href="mailto:eclecticsummerfestival@gmail.com"><img class="icon"
+                    src="../src/images/reseaux-sociaux/gmail-white.png"></a>
+        </div>
+    </footer>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script src="../src/scripts/script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.menu').click(function () {
+                $('ul').toggleClass('active');
+            })
+        })
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+</body>
+
+</html>
