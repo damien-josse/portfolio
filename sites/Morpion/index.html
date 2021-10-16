@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="./img/favicon.ico">
+
+        <link rel="stylesheet" href="./style.css">
+        <title>Tic tac toe</title>
+    </head>
+    <body class="background">
+        <header id="header-background">
+            <h2>GROSSI Lucie - LETHELLIEZ Alexandre - JOSSE Damien</h2>
+        </header>
+        <div class="dark">
+            <label class="switch" onclick="darkMode();">
+                <input type="checkbox" id="btn">
+                <span class="slider"></span>
+            </label>
+            <img src="./img/lune.png" id="moon">
+            <img src="./img/soleil.png" id="sun">
+        </div>
+        <div class="desc">           
+            <h1 id="title">Tic tac toe</h1>
+            <h2 id="txt-choix">Choississez un clan !</h2>         
+            <p id="desc"></p>
+            <h2 id="arbitre"></h2>  
+            <table id="choice">
+                <tr>
+                    <td class="border1"><input type="button" onclick="choixX();" value="X" id="choixX" class="compteur border1"></td>
+                    <td class="border2"><input type="button" onclick="choixO();" value="O" id="choixO" class="compteur border2"></td>
+                </tr>    
+            </table>
+            <div id="tirage">
+                <div>
+                    <p id="desc-tirage">Un nombre est tiré au hasard entre 1 et 10 pour le joueur et l'ordinateur !</p>
+                </div>
+                <div id="tirage-result">
+                    <div>
+                        <h3 id="descX">Nombre du joueur :</h3>
+                        <h3 id="tirageX"></h3>
+                    </div>
+                    <div>
+                        <h3 id="descO">Nombre de l'ordinateur :</h3>
+                        <h3 id="tirageO"></h3>
+                    </div>
+                </div>
+            </div>
+            <a href="#" id="show" onclick="tirage();">Lancer</a>
+
+        </div>
+        <div class="container">
+            <table class="tab">
+                <tr>
+                    <td><input class="case" id="case0" value="" type="button"></td>
+                    <td><input class="case" id="case1" value="" type="button"></td>
+                    <td><input class="case" id="case2" value="" type="button"></td>
+                    <td><input class="case" id="case3" value="" type="button"></td>
+                </tr>
+                <tr>
+                    <td><input class="case" id="case4" value="" type="button"></td>
+                    <td><input class="case" id="case5" value="" type="button"></td>
+                    <td><input class="case" id="case6" value="" type="button"></td>
+                    <td><input class="case" id="case7" value="" type="button"></td>
+                </tr>
+                <tr>
+                    <td><input class="case" id="case8" value="" type="button"></td>
+                    <td><input class="case" id="case9" value="" type="button"></td>
+                    <td><input class="case" id="case10" value="" type="button"></td>
+                    <td><input class="case" id="case11" value="" type="button"></td>
+                </tr>
+                <tr>
+                    <td><input class="case" id="case12" value="" type="button"></td>
+                    <td><input class="case" id="case13" value="" type="button"></td>
+                    <td><input class="case" id="case14" value="" type="button"></td>
+                    <td><input class="case" id="case15" value="" type="button"></td>
+                </tr>
+            </table>
+            <table id="count" class="tab">
+                <tr>
+                    <td class="border1"><input type="button" value="0" class="compteur border1" id="scoreX" disabled></td>
+                    <td class="border2"><input type="button" value="0" class="compteur border2" id="scoreO" disabled></td>
+                </tr>    
+            </table>        
+        </div>
+        <a href="#" id="restart" onclick="restart();">Relancer</a>
+        <script src="script.js"></script>
+    </body>
+</html>
