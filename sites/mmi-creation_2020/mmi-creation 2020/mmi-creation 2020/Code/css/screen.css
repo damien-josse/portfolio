@@ -1,0 +1,70 @@
+@media screen and (max-width: 425px) {
+    header {
+        flex-direction: column;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    header input {
+        display: none;
+    }
+    #banner img {
+        display: none;
+    }
+    #banner div {
+        flex-direction: column;
+    }
+    #banner div h1 {
+        font-size: 1.5rem;
+    }
+    #banner div a {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    #services {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    #services div {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #services div img {
+        display: none;
+    }
+    .allrea > div:nth-last-child(-n+5) {
+        display: none;
+    }
+    .allrea > div > img {
+        width: 100%;
+    }
+    .allrea > div {
+        width: 100%;
+    }
+    .allrea {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    #contact div {
+        width: 100%;
+    }
+    #contact iframe {
+        display: none;
+    }
+    #contact input {
+        width: 100%;
+    }
+    #contact textarea {
+        width: 100%;
+    }
+    #contact a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
