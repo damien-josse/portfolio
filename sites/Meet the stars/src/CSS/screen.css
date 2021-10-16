@@ -1,0 +1,454 @@
+@media screen and (max-width: 1024px){
+    /*header*/
+    #menu-titre {
+        width: 30%;
+    }
+    #menu-titre h1 {
+        font-size: 1.25rem;
+    }
+    #menu-titre h2 {
+        font-size: 0.75rem;
+        margin-left: 30px;
+        margin-top: -15px;
+    }
+    nav {
+        width: 60%;
+    }
+    nav a {
+        font-size: 0.75rem;
+    }
+    #buy {
+        right: 9.9%;
+        top: 44px;
+    }
+    #logost {
+        top: 2%;
+        left: 2%;
+    }
+    #choix-langues {
+        right: 40px;
+    }
+    /*desc*/
+    #desc-txt {
+        width: 60%;
+    }
+    #desc-txt div:first-child h2 {
+        font-size: 1.5rem;
+    }
+    #desc-txt div:last-child h3 {
+        font-size: 1rem;
+        width: 30%;
+    }
+    #backup img {
+        width: 50%;
+    }
+    /*contact*/
+    #contact {
+        width: 70%;
+    }
+    /*shop*/
+    .articles > div {
+        border: solid white 10px;
+    }
+    /*videos*/
+    #videos > div > div:first-child {
+        flex-direction: column;
+    }
+    #videos > div > div:last-child {
+        flex-direction: column-reverse;
+    }
+    #videos > div video {
+        width: 100%;
+    }
+    #videos > div  iframe {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    /*header*/
+    nav a {
+        font-size: 0.7rem;
+    }
+    #buy {
+        right: 9.9%;
+        top: 42px;
+    }
+    #banner {
+        height: 665px;
+    }
+    #desc-txt {
+        width: 80%;
+    }
+    #txt-logo {
+        width:40%;
+        padding-top: 30px;
+        padding-left:100px;
+    }
+    /*projections*/
+    #programme table {
+        width:50%;
+    }
+    .heure {
+        padding-left: 5px;
+    }    
+    .temps {
+        font-style: italic;
+        padding-left:10px;
+        padding-right:20px;
+    }
+    .observ {
+        font-size: 0.8rem;
+    }
+    /*contact*/
+    #contact {
+        width: 100%;
+    }
+    /*shop*/
+    .articles > div {
+        flex-basis: 40%;
+        border: solid white 10px;
+    }
+}
+@media screen and (max-width: 425px){
+    /*header*/
+    header {
+        padding-bottom: 20px;
+    }
+    #menu {
+        width: 100%;
+        flex-direction: column;
+    }
+    #menu-titre {
+        width: 100%;
+    }
+    #menu-titre h1 {
+        font-size: 1rem;
+    }
+    #menu-titre h2 {
+        font-size: 0.5rem;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    #logost {
+        width:20%;
+    }
+    #txt-logo {
+        width:20%;
+    }
+    nav {
+        width: 60%;
+    }
+    nav a {
+        font-size: 0.35rem;
+    }
+    #buy {
+        right: 20%;
+        top: 75px;
+        padding: 5px;
+    }
+    #choix-langues {
+        right: 40px;
+    }
+    #choix-langues a, #choix-langues p {
+        font-size: 0.75rem;
+    }
+    /*banner*/
+    #banner {
+        height: 750px;
+    }
+    #banner-txt h1 {
+        font-size: 1.5rem;
+        text-shadow:#472864 5px 5px 0,
+        #333 5px 5px 5px;
+    }
+    #banner-txt h2 {
+        font-size: 1.25rem;
+        margin-top:-10px;
+        text-shadow:#472864 5px 5px 0,
+        #333 5px 5px 5px;
+    }
+    #banner {
+        height: 200px; 
+        width: 100%;
+    }
+    #banner-video {
+        position: absolute;  
+        z-index: 0; 
+        width: 100%; 
+        left: 49.99999%; 
+        top: 0; 
+    }
+    /*desc*/
+    #desc-txt {
+        width: 70%;
+    }
+    #desc-txt div:first-child h2 {
+        font-size: 1rem;
+    }
+    #desc-txt div:first-child h3 {
+        font-size: 0.75rem;
+    }
+    #desc-txt div:first-child p {
+        font-size: 0.5rem;
+    }
+    #desc-txt div:first-child a {
+        font-size: 0.5rem;
+        padding: 5px;
+        width: 75%;
+    }
+    #desc-txt div:last-child h3 {
+        font-size: 0.75rem;
+        width: 50%;
+    }
+    #desc-txt div:last-child p {
+        font-size: 0.5rem;
+    }
+    /*Infos*/
+    #infos > div {
+        flex-direction: column;
+        width: 90%;
+    }
+    #infos table {
+        width: 100%;
+    }
+    #infos table tr th, #infos table tr td {
+        font-size: 0.55rem;
+        padding: 5px;
+    }
+    #conditions {
+        font-size: 0.5rem;
+    }
+    #contact {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    #contact div {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #contact > div:first-child {
+        margin: 0 auto;
+    }
+    #contact form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #contact > div:last-child {
+        background-color: #070625;
+        width: 100%;
+    }
+    #contact > div:last-child h3 {
+        text-align: center;
+    }
+    #contact > div:last-child iframe {
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+    #contact > div:last-child p {
+        width: 50%;
+        margin: 10px auto;
+    }
+    /*projections*/
+    #programme {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    #programme table {
+        width:50%;
+        margin: 0 auto;
+    }
+    #programme > div > div > h3 {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .heure {
+        padding-left: 5px;
+    }    
+    .temps {
+        font-style: italic;
+        padding-left: 5px;
+        padding-right:10px;
+    }
+    .observ {
+        padding-left: 0px;
+        margin: 0 auto;
+        padding-bottom: 0px;
+        width:50%;
+        font-size: 0.8rem;
+    }
+    #programme > div {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        flex-direction: column;
+    }
+    /*Exposants*/
+    #date-4 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #date-4 table th {
+        padding-bottom:20px;
+        font-size:0.7rem;
+    }
+    
+    #date-4 table td {
+        padding-left:10px;
+    }
+    .expo-4 {
+        width: 25%;
+        padding-left: 20px;
+        background: url("../img/puce.png") left no-repeat; 
+        background-size: 7%;
+        font-family: 'Bebas Neue';
+        font-size: 0.75rem;
+    }
+    #date-5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #date-5 table th {
+        padding-bottom:20px;
+        font-size:0.7rem;
+    }
+    
+    #date-5 table td {
+        padding-left:10px;
+    }
+    .expo-5 {
+        width: 25%;
+        padding-left: 20px;
+        background: url("../img/puce.png") left no-repeat; 
+        background-size: 7%;
+        font-family: 'Bebas Neue';
+        font-size: 0.75rem;
+    }
+    .description {
+        font-size:0.5rem;
+    }
+    #date-4 > div:last-child{
+        font-size: 0.5rem;
+    }
+    #date-5 > div:last-child{
+        font-size: 0.5rem;
+    }
+    /*presse*/
+    #presse div {
+        height: 400px;
+        width: 80%;
+        margin: 0 auto;
+        padding-left:30px;
+        padding-top:30px;
+    }
+    /*billetterie*/
+    #tickets {
+        padding-top: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #tickets > div {
+        justify-content: space-around;
+    }
+    #tickets table tr td {
+        font-size: 0.75rem;
+    }
+    #tickets table tr td div {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    #btn- {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 2px;
+        background-color: #25282a;
+        color: white;
+        border: none;
+    }
+    #btnP {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 2px;
+        border: none;
+    }
+    #form-tickets {
+        width:100%;
+        margin:0 auto;
+        padding-top:30px;
+        padding-bottom: 30px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .recap {
+        margin: 0 auto;
+    }
+
+    #panier {
+        width: 80%;
+        margin: 0 auto
+    }
+    #panier input {
+        margin-bottom:30px;
+        width: 100%;
+    }
+    #CB {
+        width: 15%;
+    }
+    /*footer*/
+    footer > img {
+        width: 100px;
+    }
+    footer > div {
+        width: 80%;
+    }
+    footer div > p > a > img {
+        width: 5%;
+    }
+    .venir {
+        width: 80%;
+        flex-direction: column;
+        margin:0 auto;
+        padding-bottom:20px;
+        display:flex;
+        justify-content: space-around;
+    }
+    .venir div {
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 375px){
+    /*header*/
+    nav {
+        width: 70%;
+    }
+    #buy {
+        right: 15%;
+        top: 74px;
+    }
+}
+@media screen and (max-width: 320px){
+    /*header*/
+    nav {
+        width: 80%;
+    }
+    #buy {
+        right: 10%;
+        top: 74px;
+    }
+    /*banner*/
+    #banner {
+        height: 150px;
+    }
+    /*shop*/
+    .articles > div {
+        border: solid white 5px;
+    }
+}
